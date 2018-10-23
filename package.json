@@ -2,7 +2,7 @@
   "name": "css-prop-utils",
   "description": "CSS prop utils",
   "author": "Rasmus Josefsson <josefssonrasmus@gmail.com> (http://rasmusjosefsson.com/)",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "keywords": [
     "css",
     "utility",
@@ -12,7 +12,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/rajjejosefsson/css-props.git"
+    "url": "https://github.com/rajjejosefsson/css-prop-utils.git"
   },
   "main": "css",
   "files": [

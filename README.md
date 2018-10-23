@@ -9,15 +9,15 @@
 If you want to load all css
 
 ```js
-import "css-prop-utils/lib/allCss.css";
+import "css-prop-utils/css/index.css";
 ```
 
 If you want to load separate css props classes
 
 ```js
-import "css-prop-utils/lib/display.css";
-import "css-prop-utils/lib/flex-wrap.css";
-import "css-prop-utils/lib/justify-content.css";
+import "css-prop-utils/css/display.css";
+import "css-prop-utils/css/flex-wrap.css";
+import "css-prop-utils/css/justify-content.css";
 ```
 
 Example:
@@ -146,11 +146,11 @@ word-wrap
 
 ## Develop
 
-The CSS is generated from following file:
+The CSS is generated from the following file:
 `scripts/propertiesList.json`
 
 later on is the css scrapped from desired webpage,
-and with the help of a *query selector*
+and with the help of customized *query selector*
 
 Example:
 
