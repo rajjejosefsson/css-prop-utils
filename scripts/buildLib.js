@@ -66,7 +66,7 @@ function buildLibFile(filename) {
 function createImportAllCssFile(fileNames) {
   const allCss = fileNames
     .map(
-      file => `@import "${file}.css";
+      file => `@import "./${file}.css";
 `
     )
     .join("");
