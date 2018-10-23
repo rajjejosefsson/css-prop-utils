@@ -1,1 +1,0 @@
-{"version":3,"sources":["../css/text-overflow.css"],"names":[],"mappings":"AAAA;EACE,oBAAoB;CACrB;AACD;EACE,wBAAwB;CACzB;AACD;EACE,oBAAoB;CACrB","file":"text-overflow.css","sourcesContent":[".p-text-overflow--clip {\n  text-overflow: clip;\n}\n.p-text-overflow--ellipsis {\n  text-overflow: ellipsis;\n}\n.p-text-overflow--fade {\n  text-overflow: fade;\n}\n"]}

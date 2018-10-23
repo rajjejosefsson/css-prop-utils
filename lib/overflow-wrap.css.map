@@ -1,1 +1,0 @@
-{"version":3,"sources":["../css/overflow-wrap.css"],"names":[],"mappings":"AAAA;EACE,sBAAsB;CACvB;AACD;EACE,0BAA0B;CAC3B","file":"overflow-wrap.css","sourcesContent":[".p-overflow-wrap--normal {\n  overflow-wrap: normal;\n}\n.p-overflow-wrap--break-word {\n  overflow-wrap: break-word;\n}\n"]}

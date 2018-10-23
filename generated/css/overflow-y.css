@@ -1,0 +1,12 @@
+.p-overflow-y--visible {
+  overflow-y: visible;
+}
+.p-overflow-y--hidden {
+  overflow-y: hidden;
+}
+.p-overflow-y--scroll {
+  overflow-y: scroll;
+}
+.p-overflow-y--auto {
+  overflow-y: auto;
+}

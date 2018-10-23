@@ -19,13 +19,13 @@
     "lib"
   ],
   "scripts": {
-    "clean:json": "rm -rf json && mkdir json",
+    "clean:json": "rm -rf ./generated/json && mkdir ./generated/json",
     "generate:json": "npm run clean:json && babel-node ./scripts/generateJson.js",
     "watch:json": "npm run clean:json && nodemon --exec babel-node ./scripts/generateJson.js",
-    "clean:css": "rm -rf css && mkdir css",
+    "clean:css": "rm -rf ./generated/css && mkdir ./generated/css",
     "generate:css": "npm run clean:css && babel-node ./scripts/generateCss.js",
     "generate:all": "npm run generate:json && npm run generate:css",
-    "clean:build": "rm -rf lib && mkdir lib",
+    "clean:build": "rm -rf css && mkdir css",
     "build:lib": "npm run clean:build && babel-node ./scripts/buildLib.js",
     "all": "npm run generate:all && npm run build:lib"
   },

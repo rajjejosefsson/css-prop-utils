@@ -14,17 +14,24 @@
   text-decoration: blink;
 }
 .p-text-decoration--solid {
-  text-decoration: solid;
+  -webkit-text-decoration: solid;
+          text-decoration: solid;
 }
 .p-text-decoration--wavy {
-  text-decoration: wavy;
+  -webkit-text-decoration: wavy;
+          text-decoration: wavy;
 }
 .p-text-decoration--dotted {
-  text-decoration: dotted;
+  -webkit-text-decoration: dotted;
+          text-decoration: dotted;
 }
 .p-text-decoration--dashed {
-  text-decoration: dashed;
+  -webkit-text-decoration: dashed;
+          text-decoration: dashed;
 }
 .p-text-decoration--double {
-  text-decoration: double;
+  -webkit-text-decoration: double;
+          text-decoration: double;
 }
+
+/*# sourceMappingURL=text-decoration.css.map */

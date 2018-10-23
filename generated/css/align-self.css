@@ -1,0 +1,24 @@
+.p-align-self--auto {
+  align-self: auto;
+}
+.p-align-self--stretch {
+  align-self: stretch;
+}
+.p-align-self--center {
+  align-self: center;
+}
+.p-align-self--flex-start {
+  align-self: flex-start;
+}
+.p-align-self--flex-end {
+  align-self: flex-end;
+}
+.p-align-self--baseline {
+  align-self: baseline;
+}
+.p-align-self--initial {
+  align-self: initial;
+}
+.p-align-self--inherit {
+  align-self: inherit;
+}

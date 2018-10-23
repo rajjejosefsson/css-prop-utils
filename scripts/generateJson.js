@@ -41,7 +41,7 @@ async function run() {
 
 function writeJsonFile(values, name) {
   fs.writeFile(
-    `./json/${name}.json`,
+    `./generated/json/${name}.json`,
     trailingLine(JSON.stringify(values)),
     error => {
       if (error) console.log(error);

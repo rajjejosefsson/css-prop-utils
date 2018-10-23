@@ -1,0 +1,30 @@
+.p-text-decoration--none {
+  text-decoration: none;
+}
+.p-text-decoration--underline {
+  text-decoration: underline;
+}
+.p-text-decoration--overline {
+  text-decoration: overline;
+}
+.p-text-decoration--line-through {
+  text-decoration: line-through;
+}
+.p-text-decoration--blink {
+  text-decoration: blink;
+}
+.p-text-decoration--solid {
+  text-decoration: solid;
+}
+.p-text-decoration--wavy {
+  text-decoration: wavy;
+}
+.p-text-decoration--dotted {
+  text-decoration: dotted;
+}
+.p-text-decoration--dashed {
+  text-decoration: dashed;
+}
+.p-text-decoration--double {
+  text-decoration: double;
+}

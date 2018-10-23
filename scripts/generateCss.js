@@ -3,7 +3,7 @@ import fs from "fs";
 import path from "path";
 import chalk from "chalk";
 
-const DIR_NAME = "json";
+const DIR_NAME = "generated/json";
 
 function run() {
   console.log(
@@ -44,7 +44,7 @@ function generateCssContent(filename, fileContent) {
 }
 
 function writeCssToFile(filename, cssContent) {
-  fs.writeFile(`./css/${filename}.css`, cssContent, error => {
+  fs.writeFile(`./generated/css/${filename}.css`, cssContent, error => {
     if (error) console.log(error);
   });
 }

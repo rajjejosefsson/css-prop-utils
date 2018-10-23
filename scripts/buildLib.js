@@ -6,7 +6,7 @@ import path from "path";
 import autoprefixer from "autoprefixer";
 import chalk from "chalk";
 
-const CSS_DIR = "css";
+const CSS_DIR = "generated/css";
 
 function run() {
   console.log(chalk.green("Building " + chalk.blue.underline.bold("Lib...")));
@@ -34,7 +34,7 @@ function buildLibFile(filename) {
       return postcss([autoprefixer])
         .process(css, {
           from: `./${CSS_DIR}/${filename}.css`,
-          to: `./lib/${filename}.css`,
+          to: `./css/${filename}.css`,
           map: { inline: false }
         })
         .then(result => {
@@ -42,17 +42,17 @@ function buildLibFile(filename) {
             console.warn(warn.toString());
           });
 
-          fs.writeFileSync(`./lib/${filename}.css`, result.css);
+          fs.writeFileSync(`./css/${filename}.css`, result.css);
 
           if (result.map) {
-            fs.writeFileSync(`./lib/${filename}.css.map`, result.map);
+            fs.writeFileSync(`./css/${filename}.css.map`, result.map);
           }
 
           return result;
         })
         .then(result => {
           const minified = new CleanCSS().minify(result.css);
-          fs.writeFileSync(`./lib/${filename}.min.css`, minified.styles);
+          fs.writeFileSync(`./css/${filename}.min.css`, minified.styles);
         })
         .then(resolve)
         .catch(error => {
@@ -70,7 +70,7 @@ function createImportAllCssFile(fileNames) {
 `
     )
     .join("");
-  fs.writeFile(`./lib/index.css`, allCss, error => {
+  fs.writeFile(`./css/index.css`, allCss, error => {
     if (error) console.log(error);
   });
 }

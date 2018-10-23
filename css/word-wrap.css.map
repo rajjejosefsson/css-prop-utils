@@ -1,0 +1,1 @@
+{"version":3,"sources":["../generated/css/word-wrap.css"],"names":[],"mappings":"AAAA;EACE,kBAAkB;CACnB;AACD;EACE,sBAAsB;CACvB","file":"word-wrap.css","sourcesContent":[".p-word-wrap--normal {\n  word-wrap: normal;\n}\n.p-word-wrap--break-word {\n  word-wrap: break-word;\n}\n"]}

@@ -11,5 +11,8 @@
   position: fixed;
 }
 .p-position--sticky {
+  position: -webkit-sticky;
   position: sticky;
 }
+
+/*# sourceMappingURL=position.css.map */
