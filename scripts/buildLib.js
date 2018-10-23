@@ -70,7 +70,7 @@ function createImportAllCssFile(fileNames) {
 `
     )
     .join("");
-  fs.writeFile(`./lib/allCss.css`, allCss, error => {
+  fs.writeFile(`./lib/index.css`, allCss, error => {
     if (error) console.log(error);
   });
 }
