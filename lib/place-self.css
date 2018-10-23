@@ -1,0 +1,29 @@
+.p-place-self--auto {
+  place-self: auto;
+}
+.p-place-self--normal {
+  place-self: normal;
+}
+.p-place-self--self-start {
+  place-self: self-start;
+}
+.p-place-self--self-end {
+  place-self: self-end;
+}
+.p-place-self--flex-start {
+  place-self: flex-start;
+}
+.p-place-self--flex-end {
+  place-self: flex-end;
+}
+.p-place-self--center {
+  place-self: center;
+}
+.p-place-self--baselinefirst baseline {
+  place-self: baselinefirst baseline;
+}
+.p-place-self--stretch {
+  place-self: stretch;
+}
+
+/*# sourceMappingURL=place-self.css.map */

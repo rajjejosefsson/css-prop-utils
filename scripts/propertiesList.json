@@ -1,0 +1,208 @@
+[
+  {
+    "name": "display",
+    "selector": ".w3-table-all.notranslate tr td:nth-child(1)",
+    "url": "https://www.w3schools.com/cssref/pr_class_display.asp"
+  },
+  {
+    "name": "align-content",
+    "selector": ".w3-table-all.notranslate tr td:nth-child(1)",
+    "url": "https://www.w3schools.com/cssref/css3_pr_align-content.asp"
+  },
+  {
+    "name": "align-items",
+    "selector": ".w3-table-all.notranslate tr td:nth-child(1)",
+    "url": "https://www.w3schools.com/cssref/css3_pr_align-items.asp"
+  },
+  {
+    "name": "align-self",
+    "selector": ".w3-table-all.notranslate tr td:nth-child(1)",
+    "url": "https://www.w3schools.com/cssref/css3_pr_align-self.asp"
+  },
+  {
+    "name": "justify-content",
+    "selector": ".w3-table-all.notranslate tr td:nth-child(1)",
+    "url": "https://www.w3schools.com/cssref/css3_pr_justify-content.asp"
+  },
+  {
+    "name": "justify-items",
+    "selector": "#Values ~ dl dt > code:nth-child(1)",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/justify-items"
+  },
+  {
+    "name": "justify-self",
+    "selector": "#Values ~ dl dt > code:nth-child(1)",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/justify-self"
+  },
+  {
+    "name": "place-content",
+    "selector": "#Values ~ dl dt > code:nth-child(1)",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/place-content"
+  },
+  {
+    "name": "place-items",
+    "selector": "#Values ~ dl dt > code:nth-child(1)",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/place-items"
+  },
+  {
+    "name": "place-self",
+    "selector": "#Values ~ dl dt > code:nth-child(1)",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/place-self"
+  },
+  {
+    "name": "flex-wrap",
+    "selector": ".w3-table-all.notranslate tr td:nth-child(1)",
+    "url": "https://www.w3schools.com/cssref/css3_pr_flex-wrap.asp"
+  },
+  {
+    "name": "flex-direction",
+    "selector": ".w3-table-all.notranslate tr td:nth-child(1)",
+    "url": "https://www.w3schools.com/cssref/css3_pr_flex-direction.asp"
+  },
+  {
+    "name": "flex-flow",
+    "selector": ".w3-table-all.notranslate tr td:nth-child(1)",
+    "url": "https://www.w3schools.com/cssref/css3_pr_flex-flow.asp"
+  },
+  {
+    "name": "flex-wrap",
+    "selector": ".w3-table-all.notranslate tr td:nth-child(1)",
+    "url": "https://www.w3schools.com/cssref/css3_pr_flex-wrap.asp"
+  },
+  {
+    "name": "flex",
+    "from": 1,
+    "to": 5
+  },
+  {
+    "name": "flex-shrink",
+    "from": 0,
+    "to": 5
+  },
+  {
+    "name": "flex-grow",
+    "from": 0,
+    "to": 5
+  },
+  {
+    "name": "order",
+    "from": -1,
+    "to": 5
+  },
+  {
+    "name": "float",
+    "selector": "#Values ~ dl dt > code:nth-child(1)",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/float"
+  },
+  {
+    "name": "position",
+    "selector": "#Values ~ dl dt > code:nth-child(1)",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/position"
+  },
+  {
+    "name": "box-sizing",
+    "selector": "#Values ~ dl dt > code:nth-child(1)",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing"
+  },
+  {
+    "name": "vertical-align",
+    "selector": ".w3-table-all.notranslate tr td:nth-child(1)",
+    "ignoreValues": [
+      "length",
+      "%"
+    ],
+    "url": "https://www.w3schools.com/cssref/pr_pos_vertical-align.asp"
+  },
+  {
+    "name": "text-decoration",
+    "selector": "dd dl dt dfn code:nth-child(1)",
+    "url": "https://www.quackit.com/css/css3/properties/css_text-decoration.cfm"
+  },
+  {
+    "name": "word-break",
+    "selector": "#Values ~ dl dt > code:nth-child(1)",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/word-break"
+  },
+  {
+    "name": "word-wrap",
+    "selector": "#Values ~ dl dt > code:nth-child(1)",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/word-wrap"
+  },
+  {
+    "name": "line-break",
+    "selector": "#Values ~ dl dt > code:nth-child(1)",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/line-break"
+  },
+  {
+    "name": "hyphens",
+    "selector": "#Values ~ dl dt > code:nth-child(1)",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/hyphens"
+  },
+  {
+    "name": "white-space",
+    "selector": "#Values ~ dl dt > code:nth-child(1)",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/white-space"
+  },
+  {
+    "name": "text-align",
+    "selector": "#Values ~ dl dt > code:nth-child(1)",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/text-align"
+  },
+  {
+    "name": "overflow",
+    "selector": "#Values ~ dl dt > code:nth-child(1)",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/overflow"
+  },
+  {
+    "name": "overflow-x",
+    "selector": "#Values ~ dl dt > code:nth-child(1)",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-x"
+  },
+  {
+    "name": "overflow-y",
+    "selector": "#Values ~ dl dt > code:nth-child(1)",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-y"
+  },
+  {
+    "name": "overflow-wrap",
+    "selector": "#Values ~ dl dt > code:nth-child(1)",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-wrap"
+  },
+  {
+    "name": "text-overflow",
+    "selector": "#Values ~ dl dt > code:nth-child(1)",
+    "ignoreValues": [
+      "<string>",
+      "fade( <length> | <percentage> )"
+    ],
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/text-overflow"
+  },
+  {
+    "name": "resize",
+    "selector": "#Values ~ dl dt > code:nth-child(1)",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/resize"
+  },
+  {
+    "name": "visibility",
+    "selector": "#Values ~ dl dt > code:nth-child(1)",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/visibility"
+  },
+  {
+    "name": "font-weight",
+    "selector": "#Values ~ dl dt > code:nth-child(1)",
+    "ignoreValues": [
+      "<number>"
+    ],
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight"
+  },
+  {
+    "name": "object-fit",
+    "selector": "#Values ~ dl dt > code:nth-child(1)",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit"
+  },
+  {
+    "name": "object-fit",
+    "selector": "#Values ~ dl dt > code:nth-child(1)",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit"
+  }
+]

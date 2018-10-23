@@ -1,0 +1,48 @@
+{
+  "name": "css-prop-utils",
+  "description": "CSS prop utils",
+  "author": "Rasmus Josefsson <josefssonrasmus@gmail.com> (http://rasmusjosefsson.com/)",
+  "version": "0.0.9",
+  "keywords": [
+    "css",
+    "utility",
+    "properties",
+    "classes"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rajjejosefsson/css-props.git"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "clean:json": "rm -rf json && mkdir json",
+    "generate:json": "npm run clean:json && babel-node ./scripts/generateJson.js",
+    "watch:json": "npm run clean:json && nodemon --exec babel-node ./scripts/generateJson.js",
+    "clean:css": "rm -rf css && mkdir css",
+    "generate:css": "npm run clean:css && babel-node ./scripts/generateCss.js",
+    "generate:all": "npm run generate:json && npm run generate:css",
+    "clean:build": "rm -rf lib && mkdir lib",
+    "build:lib": "npm run clean:build && babel-node ./scripts/buildLib.js",
+    "all": "npm run generate:all && npm run build:lib"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.1.2",
+    "@babel/core": "7.1.2",
+    "@babel/node": "7.0.0",
+    "@babel/plugin-syntax-dynamic-import": "7.0.0",
+    "@babel/preset-env": "7.1.0",
+    "autoprefixer": "9.2.1",
+    "axios": "0.18.0",
+    "chalk": "2.4.1",
+    "cheerio": "1.0.0-rc.2",
+    "clean-css": "4.2.1",
+    "cli-spinners": "1.3.1",
+    "nodemon": "1.18.4",
+    "ora": "3.0.0",
+    "postcss": "7.0.5",
+    "single-trailing-newline": "1.0.0"
+  }
+}

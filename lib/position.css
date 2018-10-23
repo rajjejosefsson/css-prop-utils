@@ -1,0 +1,18 @@
+.p-position--static {
+  position: static;
+}
+.p-position--relative {
+  position: relative;
+}
+.p-position--absolute {
+  position: absolute;
+}
+.p-position--fixed {
+  position: fixed;
+}
+.p-position--sticky {
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+/*# sourceMappingURL=position.css.map */

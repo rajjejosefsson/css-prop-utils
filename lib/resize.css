@@ -1,0 +1,20 @@
+.p-resize--none {
+  resize: none;
+}
+.p-resize--both {
+  resize: both;
+}
+.p-resize--horizontal {
+  resize: horizontal;
+}
+.p-resize--vertical {
+  resize: vertical;
+}
+.p-resize--block {
+  resize: block;
+}
+.p-resize--inline {
+  resize: inline;
+}
+
+/*# sourceMappingURL=resize.css.map */

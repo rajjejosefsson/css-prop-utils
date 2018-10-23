@@ -1,0 +1,9 @@
+.p-hyphens--none {
+  hyphens: none;
+}
+.p-hyphens--manual {
+  hyphens: manual;
+}
+.p-hyphens--auto {
+  hyphens: auto;
+}

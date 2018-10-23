@@ -1,0 +1,41 @@
+.p-place-items--auto {
+  place-items: auto;
+}
+.p-place-items--normal {
+  place-items: normal;
+}
+.p-place-items--start {
+  place-items: start;
+}
+.p-place-items--end {
+  place-items: end;
+}
+.p-place-items--flex-start {
+  place-items: flex-start;
+}
+.p-place-items--flex-end {
+  place-items: flex-end;
+}
+.p-place-items--self-start {
+  place-items: self-start;
+}
+.p-place-items--self-end {
+  place-items: self-end;
+}
+.p-place-items--center {
+  place-items: center;
+}
+.p-place-items--left {
+  place-items: left;
+}
+.p-place-items--right {
+  place-items: right;
+}
+.p-place-items--baselinefirst baseline {
+  place-items: baselinefirst baseline;
+}
+.p-place-items--stretch {
+  place-items: stretch;
+}
+
+/*# sourceMappingURL=place-items.css.map */

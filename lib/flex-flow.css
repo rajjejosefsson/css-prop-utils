@@ -1,0 +1,14 @@
+.p-flex-flow--flex-direction {
+  flex-flow: flex-direction;
+}
+.p-flex-flow--flex-wrap {
+  flex-flow: flex-wrap;
+}
+.p-flex-flow--initial {
+  flex-flow: initial;
+}
+.p-flex-flow--inherit {
+  flex-flow: inherit;
+}
+
+/*# sourceMappingURL=flex-flow.css.map */

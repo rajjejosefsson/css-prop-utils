@@ -1,0 +1,20 @@
+.p-flex-direction--row {
+  flex-direction: row;
+}
+.p-flex-direction--row-reverse {
+  flex-direction: row-reverse;
+}
+.p-flex-direction--column {
+  flex-direction: column;
+}
+.p-flex-direction--column-reverse {
+  flex-direction: column-reverse;
+}
+.p-flex-direction--initial {
+  flex-direction: initial;
+}
+.p-flex-direction--inherit {
+  flex-direction: inherit;
+}
+
+/*# sourceMappingURL=flex-direction.css.map */

@@ -1,0 +1,23 @@
+.p-align-items--stretch {
+  align-items: stretch;
+}
+.p-align-items--center {
+  align-items: center;
+}
+.p-align-items--flex-start {
+  align-items: flex-start;
+}
+.p-align-items--flex-end {
+  align-items: flex-end;
+}
+.p-align-items--baseline {
+  align-items: baseline;
+}
+.p-align-items--initial {
+  align-items: initial;
+}
+.p-align-items--inherit {
+  align-items: inherit;
+}
+
+/*# sourceMappingURL=align-items.css.map */
