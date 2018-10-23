@@ -1,4 +1,4 @@
-# CSS Prop Utilities ⚙️
+# CSS Prop Utils ⚙️
 
 > Util based approach of styling your elements fast and in a reliable way
 
