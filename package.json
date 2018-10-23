@@ -14,7 +14,6 @@
     "type": "git",
     "url": "https://github.com/rajjejosefsson/css-prop-utils.git"
   },
-  "main": "css",
   "files": [
     "css"
   ],
