@@ -2,7 +2,7 @@
   "name": "css-prop-utils",
   "description": "CSS prop utils",
   "author": "Rasmus Josefsson <josefssonrasmus@gmail.com> (http://rasmusjosefsson.com/)",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "keywords": [
     "css",
     "utility",
@@ -17,6 +17,7 @@
   "files": [
     "css"
   ],
+  "style": "css/index.css",
   "scripts": {
     "clean:json": "rm -rf ./generated/json && mkdir ./generated/json",
     "generate:json": "npm run clean:json && babel-node ./scripts/generateJson.js",
