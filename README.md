@@ -6,13 +6,7 @@
 
 ## Setup
 
-If you want to load all css
-
-```js
-import "css-prop-utils/css/index.css";
-```
-
-If you want to load separate css props classes
+Import appropriate css-props classes
 
 ```js
 import "css-prop-utils/css/display.css";
