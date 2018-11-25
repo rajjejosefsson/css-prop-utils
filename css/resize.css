@@ -1,19 +1,19 @@
-.p-resize--none {
+.u-resize--none {
   resize: none;
 }
-.p-resize--both {
+.u-resize--both {
   resize: both;
 }
-.p-resize--horizontal {
+.u-resize--horizontal {
   resize: horizontal;
 }
-.p-resize--vertical {
+.u-resize--vertical {
   resize: vertical;
 }
-.p-resize--block {
+.u-resize--block {
   resize: block;
 }
-.p-resize--inline {
+.u-resize--inline {
   resize: inline;
 }
 

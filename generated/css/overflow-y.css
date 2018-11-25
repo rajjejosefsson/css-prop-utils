@@ -1,12 +1,12 @@
-.p-overflow-y--visible {
+.u-overflow-y--visible {
   overflow-y: visible;
 }
-.p-overflow-y--hidden {
+.u-overflow-y--hidden {
   overflow-y: hidden;
 }
-.p-overflow-y--scroll {
+.u-overflow-y--scroll {
   overflow-y: scroll;
 }
-.p-overflow-y--auto {
+.u-overflow-y--auto {
   overflow-y: auto;
 }

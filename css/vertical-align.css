@@ -1,31 +1,31 @@
-.p-vertical-align--baseline {
+.u-vertical-align--baseline {
   vertical-align: baseline;
 }
-.p-vertical-align--sub {
+.u-vertical-align--sub {
   vertical-align: sub;
 }
-.p-vertical-align--super {
+.u-vertical-align--super {
   vertical-align: super;
 }
-.p-vertical-align--top {
+.u-vertical-align--top {
   vertical-align: top;
 }
-.p-vertical-align--text-top {
+.u-vertical-align--text-top {
   vertical-align: text-top;
 }
-.p-vertical-align--middle {
+.u-vertical-align--middle {
   vertical-align: middle;
 }
-.p-vertical-align--bottom {
+.u-vertical-align--bottom {
   vertical-align: bottom;
 }
-.p-vertical-align--text-bottom {
+.u-vertical-align--text-bottom {
   vertical-align: text-bottom;
 }
-.p-vertical-align--initial {
+.u-vertical-align--initial {
   vertical-align: initial;
 }
-.p-vertical-align--inherit {
+.u-vertical-align--inherit {
   vertical-align: inherit;
 }
 

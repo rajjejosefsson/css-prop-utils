@@ -9,7 +9,7 @@ import cliSpinners from "cli-spinners";
 import ora from "ora";
 
 const spinner = new ora({
-  text: chalk.green("Generating " + chalk.blue.underline.bold("JSON Files")),
+  text: chalk.green("Generating " + chalk.blue.underline.bold("JSON Files, this can take some time")),
   spinner: cliSpinners.point
 });
 

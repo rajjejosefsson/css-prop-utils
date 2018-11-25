@@ -1,12 +1,12 @@
-.p-flex-flow--flex-direction {
+.u-flex-flow--flex-direction {
   flex-flow: flex-direction;
 }
-.p-flex-flow--flex-wrap {
+.u-flex-flow--flex-wrap {
   flex-flow: flex-wrap;
 }
-.p-flex-flow--initial {
+.u-flex-flow--initial {
   flex-flow: initial;
 }
-.p-flex-flow--inherit {
+.u-flex-flow--inherit {
   flex-flow: inherit;
 }

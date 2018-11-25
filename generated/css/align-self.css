@@ -1,24 +1,24 @@
-.p-align-self--auto {
+.u-align-self--auto {
   align-self: auto;
 }
-.p-align-self--stretch {
+.u-align-self--stretch {
   align-self: stretch;
 }
-.p-align-self--center {
+.u-align-self--center {
   align-self: center;
 }
-.p-align-self--flex-start {
+.u-align-self--flex-start {
   align-self: flex-start;
 }
-.p-align-self--flex-end {
+.u-align-self--flex-end {
   align-self: flex-end;
 }
-.p-align-self--baseline {
+.u-align-self--baseline {
   align-self: baseline;
 }
-.p-align-self--initial {
+.u-align-self--initial {
   align-self: initial;
 }
-.p-align-self--inherit {
+.u-align-self--inherit {
   align-self: inherit;
 }

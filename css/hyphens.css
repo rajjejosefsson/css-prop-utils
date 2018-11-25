@@ -1,14 +1,14 @@
-.p-hyphens--none {
+.u-hyphens--none {
   -webkit-hyphens: none;
       -ms-hyphens: none;
           hyphens: none;
 }
-.p-hyphens--manual {
+.u-hyphens--manual {
   -webkit-hyphens: manual;
       -ms-hyphens: manual;
           hyphens: manual;
 }
-.p-hyphens--auto {
+.u-hyphens--auto {
   -webkit-hyphens: auto;
       -ms-hyphens: auto;
           hyphens: auto;

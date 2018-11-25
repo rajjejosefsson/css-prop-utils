@@ -1,10 +1,10 @@
-.p-visibility--visible {
+.u-visibility--visible {
   visibility: visible;
 }
-.p-visibility--hidden {
+.u-visibility--hidden {
   visibility: hidden;
 }
-.p-visibility--collapse {
+.u-visibility--collapse {
   visibility: collapse;
 }
 

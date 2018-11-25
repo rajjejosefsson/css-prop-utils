@@ -1,40 +1,40 @@
-.p-place-items--auto {
+.u-place-items--auto {
   place-items: auto;
 }
-.p-place-items--normal {
+.u-place-items--normal {
   place-items: normal;
 }
-.p-place-items--start {
+.u-place-items--start {
   place-items: start;
 }
-.p-place-items--end {
+.u-place-items--end {
   place-items: end;
 }
-.p-place-items--flex-start {
+.u-place-items--flex-start {
   place-items: flex-start;
 }
-.p-place-items--flex-end {
+.u-place-items--flex-end {
   place-items: flex-end;
 }
-.p-place-items--self-start {
+.u-place-items--self-start {
   place-items: self-start;
 }
-.p-place-items--self-end {
+.u-place-items--self-end {
   place-items: self-end;
 }
-.p-place-items--center {
+.u-place-items--center {
   place-items: center;
 }
-.p-place-items--left {
+.u-place-items--left {
   place-items: left;
 }
-.p-place-items--right {
+.u-place-items--right {
   place-items: right;
 }
-.p-place-items--baselinefirst baseline {
+.u-place-items--baselinefirst baseline {
   place-items: baselinefirst baseline;
 }
-.p-place-items--stretch {
+.u-place-items--stretch {
   place-items: stretch;
 }
 

@@ -1,15 +1,15 @@
-.p-object-fit--contain {
+.u-object-fit--contain {
   object-fit: contain;
 }
-.p-object-fit--cover {
+.u-object-fit--cover {
   object-fit: cover;
 }
-.p-object-fit--fill {
+.u-object-fit--fill {
   object-fit: fill;
 }
-.p-object-fit--none {
+.u-object-fit--none {
   object-fit: none;
 }
-.p-object-fit--scale-down {
+.u-object-fit--scale-down {
   object-fit: scale-down;
 }

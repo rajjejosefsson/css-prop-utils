@@ -1,22 +1,22 @@
-.p-align-items--stretch {
+.u-align-items--stretch {
   align-items: stretch;
 }
-.p-align-items--center {
+.u-align-items--center {
   align-items: center;
 }
-.p-align-items--flex-start {
+.u-align-items--flex-start {
   align-items: flex-start;
 }
-.p-align-items--flex-end {
+.u-align-items--flex-end {
   align-items: flex-end;
 }
-.p-align-items--baseline {
+.u-align-items--baseline {
   align-items: baseline;
 }
-.p-align-items--initial {
+.u-align-items--initial {
   align-items: initial;
 }
-.p-align-items--inherit {
+.u-align-items--inherit {
   align-items: inherit;
 }
 

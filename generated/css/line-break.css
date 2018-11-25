@@ -1,12 +1,12 @@
-.p-line-break--auto {
+.u-line-break--auto {
   line-break: auto;
 }
-.p-line-break--loose {
+.u-line-break--loose {
   line-break: loose;
 }
-.p-line-break--normal {
+.u-line-break--normal {
   line-break: normal;
 }
-.p-line-break--strict {
+.u-line-break--strict {
   line-break: strict;
 }

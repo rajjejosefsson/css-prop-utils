@@ -1,48 +1,48 @@
-.p-justify-items--auto {
+.u-justify-items--auto {
   justify-items: auto;
 }
-.p-justify-items--normal {
+.u-justify-items--normal {
   justify-items: normal;
 }
-.p-justify-items--start {
+.u-justify-items--start {
   justify-items: start;
 }
-.p-justify-items--end {
+.u-justify-items--end {
   justify-items: end;
 }
-.p-justify-items--flex-start {
+.u-justify-items--flex-start {
   justify-items: flex-start;
 }
-.p-justify-items--flex-end {
+.u-justify-items--flex-end {
   justify-items: flex-end;
 }
-.p-justify-items--self-start {
+.u-justify-items--self-start {
   justify-items: self-start;
 }
-.p-justify-items--self-end {
+.u-justify-items--self-end {
   justify-items: self-end;
 }
-.p-justify-items--center {
+.u-justify-items--center {
   justify-items: center;
 }
-.p-justify-items--left {
+.u-justify-items--left {
   justify-items: left;
 }
-.p-justify-items--right {
+.u-justify-items--right {
   justify-items: right;
 }
-.p-justify-items--baselinefirst baseline {
+.u-justify-items--baselinefirst baseline {
   justify-items: baselinefirst baseline;
 }
-.p-justify-items--stretch {
+.u-justify-items--stretch {
   justify-items: stretch;
 }
-.p-justify-items--safe {
+.u-justify-items--safe {
   justify-items: safe;
 }
-.p-justify-items--unsafe {
+.u-justify-items--unsafe {
   justify-items: unsafe;
 }
-.p-justify-items--legacy {
+.u-justify-items--legacy {
   justify-items: legacy;
 }

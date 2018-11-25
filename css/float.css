@@ -1,16 +1,16 @@
-.p-float--left {
+.u-float--left {
   float: left;
 }
-.p-float--right {
+.u-float--right {
   float: right;
 }
-.p-float--none {
+.u-float--none {
   float: none;
 }
-.p-float--inline-start {
+.u-float--inline-start {
   float: inline-start;
 }
-.p-float--inline-end {
+.u-float--inline-end {
   float: inline-end;
 }
 

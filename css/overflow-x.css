@@ -1,13 +1,13 @@
-.p-overflow-x--visible {
+.u-overflow-x--visible {
   overflow-x: visible;
 }
-.p-overflow-x--hidden {
+.u-overflow-x--hidden {
   overflow-x: hidden;
 }
-.p-overflow-x--scroll {
+.u-overflow-x--scroll {
   overflow-x: scroll;
 }
-.p-overflow-x--auto {
+.u-overflow-x--auto {
   overflow-x: auto;
 }
 

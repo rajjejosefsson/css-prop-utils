@@ -33,7 +33,7 @@ function run() {
 function generateCssContent(filename, fileContent) {
   const cssContent = fileContent
     .map(value => {
-      return `.p-${filename}--${value} {
+      return `.u-${filename}--${value} {
   ${filename}: ${value};
 }
 `;

@@ -1,16 +1,16 @@
-.p-flex-wrap--nowrap {
+.u-flex-wrap--nowrap {
   flex-wrap: nowrap;
 }
-.p-flex-wrap--wrap {
+.u-flex-wrap--wrap {
   flex-wrap: wrap;
 }
-.p-flex-wrap--wrap-reverse {
+.u-flex-wrap--wrap-reverse {
   flex-wrap: wrap-reverse;
 }
-.p-flex-wrap--initial {
+.u-flex-wrap--initial {
   flex-wrap: initial;
 }
-.p-flex-wrap--inherit {
+.u-flex-wrap--inherit {
   flex-wrap: inherit;
 }
 

@@ -1,16 +1,16 @@
-.p-position--static {
+.u-position--static {
   position: static;
 }
-.p-position--relative {
+.u-position--relative {
   position: relative;
 }
-.p-position--absolute {
+.u-position--absolute {
   position: absolute;
 }
-.p-position--fixed {
+.u-position--fixed {
   position: fixed;
 }
-.p-position--sticky {
+.u-position--sticky {
   position: -webkit-sticky;
   position: sticky;
 }
