@@ -65,12 +65,7 @@ function buildLibFile(filename) {
 }
 
 function createImportAllCssFile(fileNames) {
-  const allCss = fileNames
-    .map(
-      file => `@import "${file}.css";
-`
-    )
-    .join("");
+  const allCss = fileNames.map(file => `@import "${file}.css";\n`).join("");
   fs.writeFile(`./css/index.css`, allCss, error => {
     if (error) console.log(error);
   });
