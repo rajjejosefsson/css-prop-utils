@@ -4,6 +4,7 @@ import postcss from "postcss";
 import CleanCSS from "clean-css";
 import path from "path";
 import autoprefixer from "autoprefixer";
+import postcssImport from 'postcss-import'
 import chalk from "chalk";
 
 const CSS_DIR = "generated/css";
@@ -31,7 +32,7 @@ function buildLibFile(filename) {
     fs.readFile(`./${CSS_DIR}/${filename}.css`, (err, css) => {
       if (err) throw err;
 
-      return postcss([autoprefixer])
+      return postcss([postcssImport, autoprefixer])
         .process(css, {
           from: `./${CSS_DIR}/${filename}.css`,
           to: `./css/${filename}.css`,
@@ -66,7 +67,7 @@ function buildLibFile(filename) {
 function createImportAllCssFile(fileNames) {
   const allCss = fileNames
     .map(
-      file => `@import "./${file}.css";
+      file => `@import "${file}.css";
 `
     )
     .join("");
