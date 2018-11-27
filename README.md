@@ -4,7 +4,24 @@
 
 ----
 
+Use Example:
+
+```html
+<div class="u-display--flex u-flex-wrap--wrap u-justify-content--center">
+ <h1>Hello World<h1>
+</div>
+```
+
+As you can see you will not have to remember any name.
+`.u-{property name}--{value}`
+
 ## Setup
+
+Import all utils with:
+
+```js
+import "css-prop-utils";
+```
 
 Import appropriate css-props classes
 
@@ -14,91 +31,7 @@ import "css-prop-utils/css/flex-wrap.css";
 import "css-prop-utils/css/justify-content.css";
 ```
 
-Example:
-
-```html
-<div class="u-display--flex u-flex-wrap--wrap u-justify-content--center">
- <h1>Hello World<h1>
-</div>
-```
-
-Class names syntax: `u-{prop}--{value}`
-
-display.css:
-
-```css
-.u-display--inline {
-  display: inline;
-}
-.u-display--block {
-  display: block;
-}
-.u-display--contents {
-  display: contents;
-}
-.u-display--flex {
-  display: flex;
-}
-.u-display--grid {
-  display: grid;
-}
-.u-display--inline-block {
-  display: inline-block;
-}
-.u-display--inline-flex {
-  display: inline-flex;
-}
-.u-display--inline-grid {
-  display: inline-grid;
-}
-.u-display--inline-table {
-  display: inline-table;
-}
-.u-display--list-item {
-  display: list-item;
-}
-.u-display--run-in {
-  display: run-in;
-}
-.u-display--table {
-  display: table;
-}
-.u-display--table-caption {
-  display: table-caption;
-}
-.u-display--table-column-group {
-  display: table-column-group;
-}
-.u-display--table-header-group {
-  display: table-header-group;
-}
-.u-display--table-footer-group {
-  display: table-footer-group;
-}
-.u-display--table-row-group {
-  display: table-row-group;
-}
-.u-display--table-cell {
-  display: table-cell;
-}
-.u-display--table-column {
-  display: table-column;
-}
-.u-display--table-row {
-  display: table-row;
-}
-.u-display--none {
-  display: none;
-}
-.u-display--initial {
-  display: initial;
-}
-.u-display--inherit {
-  display: inherit;
-}
-```
-
-Currently following props exists
+## Supported Properties (Currently)
 
 ```txt
 align-content
