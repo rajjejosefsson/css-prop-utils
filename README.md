@@ -71,15 +71,13 @@ word-break
 word-wrap
 ```
 
-## For Developing 👨‍💻
+## Develop 👨‍💻
 
-The CSS is generated from the following file:
-`scripts/propertiesList.json`
+The CSS gets generated from `scripts/propertiesList.json`
 
-later on is the css scrapped from desired webpage,
-and with the help of a customized *query selector*
+The css gets scrapped from desired webpage with the help of a *query selector*
 
-Examples:
+Example:
 
 ```json
 {
