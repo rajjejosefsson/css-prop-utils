@@ -4,7 +4,7 @@
 
 ----
 
-Use Example:
+## Example
 
 ```html
 <div class="u-display--flex u-flex-wrap--wrap u-justify-content--center">
