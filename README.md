@@ -6,9 +6,13 @@
 
 ## Example
 
+[codesandbox demo](https://codesandbox.io/s/81lm82rq2)
+
 ```html
-<div class="u-display--flex u-flex-wrap--wrap u-justify-content--center">
- <h1>Hello World<h1>
+<div class="u-display--flex u-align-items--center u-flex-direction--column">
+  <h1>Hello CodeSandbox</h1>
+  <h2 class="u-align-self--flex-end">Flex End</h2>
+  <h2 class="u-align-self--flex-start">Flex Start</h2>
 </div>
 ```
 
